@@ -1,0 +1,335 @@
+@import url("https://fonts.googleapis.com/css2?family=Corinthia&family=Inter&family=Lobster&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  max-width: 1120px;
+  height: 100vh;
+  margin: 0 auto;
+  font-family: 'Lobster', cursive, sans-serif;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 67px;
+  background: #091921;
+  padding: 20px;
+  color: #cde0e9;
+}
+
+header h1 {
+  font-size: 40px;
+}
+
+header .headeLink {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header a {
+  text-decoration: none;
+  font-size: 32px;
+  color: #cde0e9;
+}
+
+header a ion-icon {
+  color: #cde0e9;
+}
+
+header a:hover {
+  padding: -10px;
+  font-size: 38px;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  -webkit-box-shadow: #cde0e9 2px 5px 10px;
+          box-shadow: #cde0e9 2px 5px 10px;
+  text-shadow: #cde0e9 2px 5px 10px;
+  border-radius: 50%;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #cde0e9;
+}
+
+section .left img {
+  width: 344;
+  height: 385px;
+  border-radius: 0px 8px;
+}
+
+section .left .skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+section .left .skills h1 {
+  font-size: 38px;
+  font-weight: 400;
+}
+
+section .left .skills ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 20px;
+  -webkit-box-shadow: black 0px 0px 2px 1px;
+          box-shadow: black 0px 0px 2px 1px;
+  background: #2879fb;
+}
+
+section .left .skills ul li {
+  list-style: none;
+  font-family: 'Inter', sans-serif;
+  padding: 2px;
+  text-shadow: #cde0e9 0px 1px 5px;
+  font-size: 20px;
+}
+
+section .left .skills ul li ion-icon {
+  color: #cde0e9;
+}
+
+section .left .skills .Information {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .left .skills .Information p {
+  font-family: 'Inter', sans-serif;
+  padding: 20px;
+  font-size: 20px;
+  max-width: 300px;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-bottom: 8px;
+}
+
+section .left .skills .Information p ion-icon {
+  color: #c31010;
+}
+
+section .right {
+  margin: 50px;
+}
+
+section .right h1 {
+  font-size: 38px;
+  font-weight: bold;
+}
+
+section .right p {
+  margin-top: 8px;
+  line-height: 25px;
+  font-family: 'Inter', sans-serif;
+  max-width: 600px;
+}
+
+section .right .about-me {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+}
+
+section .right .about-me h1 {
+  font-size: 38px;
+  font-weight: 400;
+}
+
+section .right .about-me ul {
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 20px;
+  -webkit-box-shadow: black 0px 0px 2px 1px;
+          box-shadow: black 0px 0px 2px 1px;
+  background: #2879fb;
+}
+
+section .right .about-me ul li {
+  list-style: none;
+  font-size: 28px;
+}
+
+section .right .about-me ul li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 8px;
+  font-size: 25px;
+  color: #cde0e9;
+}
+
+section .right .about-me ul li a:hover {
+  padding: -10px;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  text-shadow: #cde0e9 2px 5px 10px;
+}
+
+footer {
+  background: #091921;
+  margin-bottom: 67px;
+}
+
+footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+footer ul li ion-icon {
+  font-size: 40px;
+  padding: 20px;
+  color: #cde0e9;
+}
+
+@media (max-width: 690px) {
+  section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  section .left img {
+    border-radius: 8px 8px;
+  }
+  section .left .skills h1 {
+    margin-top: 10px;
+    font-size: 28px;
+    font-weight: 400;
+  }
+  section .left .skills ul {
+    margin-top: 10px;
+  }
+  section .left .skills ul li {
+    font-size: 16px;
+  }
+  section .left .skills ul li ion-icon {
+    color: #cde0e9;
+  }
+  section .left .skills .Information p {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  section .left .skills .Information p ion-icon {
+    font-size: 25px;
+  }
+  section .right {
+    margin-top: 0px;
+  }
+  section .right h1 {
+    font-size: 28px;
+  }
+  section .right p {
+    max-width: 300px;
+    font-size: 16px;
+  }
+  section .right .about-me h1 {
+    font-size: 28px;
+    font-weight: 400;
+  }
+  section .right .about-me ul li {
+    list-style: none;
+    font-size: 24px;
+  }
+  section .right .about-me ul li a:hover {
+    padding: -10px;
+    -webkit-transition: 1s;
+    transition: 1s;
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+    text-shadow: #cde0e9 2px 5px 10px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

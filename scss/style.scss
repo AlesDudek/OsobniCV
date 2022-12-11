@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia&family=Inter&family=Lobster&display=swap');
+@import "variabels";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  max-width: 1120px;
+  height: 100vh;
+  margin: 0 auto;
+  font-family: 'Lobster', cursive, sans-serif;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 67px;
+  background: $bg;
+  padding: 20px;
+  color: $white;
+  h1{
+    font-size: 40px;
+    
+  }
+  .headeLink{
+    display: flex;
+  }
+  a{
+    
+    text-decoration: none;
+    font-size: 32px;
+    color: $white;
+    ion-icon{
+      color: $white;
+    }
+  }
+  a:hover{
+    padding: -10px;
+    font-size: 38px;
+    transition: 1s;
+    transform: translateY(-10px);
+    box-shadow: $white 2px 5px 10px;
+    text-shadow: $white 2px 5px 10px;
+    border-radius:50%;
+  }
+}
+section{
+  display: flex;
+  justify-content: space-between;
+  background: $white;
+  .left{
+    img{
+      width: 344;
+      height: 385px;
+      border-radius: 0px 8px;
+    }
+    .skills{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+      h1{
+        font-size: $h1;
+        font-weight: 400;
+      }
+      ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: black 0px 0px 2px 1px;
+        background:$bgSkills;
+        li{
+          list-style: none;
+          font-family: 'Inter', sans-serif;
+          padding: 2px;
+          text-shadow: $white 0px 1px 5px;
+          font-size: 20px;
+          ion-icon{
+            color: $white;
+          }
+
+        }
+      }
+      .Information{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        p{
+          font-family:'Inter', sans-serif;
+          padding: 20px;
+          font-size: 20px;
+          max-width: 300px;
+          border: 1px solid black;
+          border-radius: 20px;
+          margin-bottom: 8px;
+          ion-icon{
+            color: rgb(195, 16, 16);
+          }
+        }
+      }
+    }
+  }
+  .right{
+    margin: 50px;
+    h1{
+      font-size: $h1;
+      font-weight: bold;
+    }
+    p{
+      margin-top: 8px;
+      line-height: 25px;
+      font-family: 'Inter', sans-serif;
+      max-width: 600px;
+    }
+    .about-me{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 30px;
+      h1{
+        font-size: $h1;
+        font-weight: 400;
+      }
+      ul{
+        border: 1px solid black;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: black 0px 0px 2px 1px;
+        background:$bgSkills;
+        li{
+          list-style: none;
+          font-size: $liSize;
+          a{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 8px;
+            font-size: $aSize;
+            color: $white;
+          }
+          a:hover{
+            padding: -10px;
+            transition: 1s;
+            transform: translateY(-10px);
+            // box-shadow: $white 2px 5px 10px;
+            text-shadow: $white 2px 5px 10px;
+          }
+        }
+      }
+    }
+  }
+}
+footer{
+  background: $bg;
+  margin-bottom: 67px;
+  ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    li{
+      ion-icon{
+        font-size: 40px;
+        padding: 20px;
+        color: $white;
+      }
+    }
+  }
+}
+@media (max-width: 690px) {
+  section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .left{
+      img{
+        border-radius: 8px 8px;
+      }
+      .skills{
+        h1{
+          margin-top: 10px;
+          font-size: $fS;
+          font-weight: 400;
+        }
+        ul{
+          margin-top: 10px;
+          li{
+            font-size: 16px;
+            ion-icon{
+              color: $white;
+            }
+          }
+        }
+        .Information{
+          p{
+            font-size: 16px;
+            font-weight: 400;
+            ion-icon{
+              font-size: 25px;
+            }
+          }
+        }
+      }
+    }
+    .right{
+      margin-top: 0px;
+      h1{
+        font-size: $fS;
+      }
+      p{
+        max-width: 300px;
+        font-size: 16px;
+      }
+      .about-me{
+        h1{
+          font-size: $fS;
+          font-weight: 400;
+        }
+        ul{
+          li{
+            list-style: none;
+            font-size: 24px;
+            a:hover{
+              padding: -10px;
+              transition: 1s;
+              transform: translateY(-10px);
+              text-shadow: $white 2px 5px 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
