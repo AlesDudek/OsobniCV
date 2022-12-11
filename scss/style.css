@@ -134,37 +134,6 @@ section .left .skills ul li ion-icon {
   color: #cde0e9;
 }
 
-section .left .skills .Information {
-  margin-top: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-section .left .skills .Information p {
-  font-family: 'Inter', sans-serif;
-  padding: 20px;
-  font-size: 20px;
-  max-width: 300px;
-  border: 1px solid black;
-  border-radius: 20px;
-  margin-bottom: 8px;
-}
-
-section .left .skills .Information p ion-icon {
-  color: #c31010;
-}
-
 section .right {
   margin: 50px;
 }
@@ -239,6 +208,41 @@ section .right .about-me ul li a:hover {
   -webkit-transform: translateY(-10px);
           transform: translateY(-10px);
   text-shadow: #cde0e9 2px 5px 10px;
+}
+
+.Information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+}
+
+.Information .box__Information {
+  -ms-flex-preferred-size: 280px;
+      flex-basis: 280px;
+  font-family: 'Inter', sans-serif;
+  padding: 20px;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.Information .box__Information ion-icon {
+  color: #c31010;
+}
+
+.Information .box__Information ml {
+  margin-left: 5px;
 }
 
 footer {

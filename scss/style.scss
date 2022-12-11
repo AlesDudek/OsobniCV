@@ -87,25 +87,6 @@ section{
 
         }
       }
-      .Information{
-        margin-top: 30px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        p{
-          font-family:'Inter', sans-serif;
-          padding: 20px;
-          font-size: 20px;
-          max-width: 300px;
-          border: 1px solid black;
-          border-radius: 20px;
-          margin-bottom: 8px;
-          ion-icon{
-            color: rgb(195, 16, 16);
-          }
-        }
-      }
     }
   }
   .right{
@@ -156,6 +137,28 @@ section{
           }
         }
       }
+    }
+  }
+}
+.Information{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  .box__Information{
+    flex-basis: 280px;
+    font-family:'Inter', sans-serif;
+    padding: 20px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    ion-icon{
+      color: rgb(195, 16, 16);
+    }
+    ml{
+      margin-left: 5px;
     }
   }
 }
