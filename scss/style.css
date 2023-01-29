@@ -234,6 +234,7 @@ section .right .about-me ul li a:hover {
   font-size: 20px;
   border: 1px solid black;
   border-radius: 20px;
+  margin: 10px;
   margin-bottom: 15px;
 }
 
